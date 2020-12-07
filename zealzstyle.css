@@ -1,8 +1,9 @@
-/* Importing Fonts */
+/* Imported Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Reset margin and padding */
 *{
@@ -23,6 +24,7 @@
     --secondary-text: #757575;
     --divider-color: #BDBDBD;
     --black: #000000;
+    --darker-grey: #707070;
 
 }
 
@@ -64,7 +66,7 @@ header img{
     transition: 0.4s;
 }
 
-/* Flexbox til hele header */
+/* Flexbox for header */
 
 .flexbox {
     display: flex;
@@ -85,7 +87,7 @@ header img{
 }
 
 
-/* Nav menu som starter uden width */
+/* Nav menu that starts without width */
 
 #nav {
     position: absolute;
@@ -112,7 +114,7 @@ header img{
 }
 
 
-/* Lukke knap til nav */
+/* Close button for nav */
 
 #closeBTN {
     display: block;
@@ -139,6 +141,80 @@ header img{
     font-size: 1.2em;
     font-weight: 300;
     text-align: center;
+}
+
+/* Styling jump menu on project site */
+.jump-to{
+    margin: 2em 0 5em 3em;
+}
+.jump-to h2{
+    color: var(--black);
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.jump-to ul li{
+    list-style: none;
+    margin: 1em 0 1em 1em;
+}
+
+.jump-to a{
+    color: var(--black);
+    font-family: 'Roboto Mono', monospace;
+    text-decoration: none;
+}
+
+.jump-to a:hover{
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+/* Styling project boxes */
+.project-info{
+    margin: 8em 4em 3em 4em;
+
+}
+.project-info h2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    margin: 4em 0 3em -2em;
+}
+
+.project-info a h3{
+    color: var(--black);
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.project-info img{
+    width: 300px;
+    height: 180px;
+}
+
+.project-info a h3:hover{
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.project-info h4{
+    color: var(--darker-grey);
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-top: 0.5em;
+}
+
+.project-info p{
+    color: var(--secondary-text);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0.5em;
+    letter-spacing: 0.01em;
 }
 
 /* Styling flexboxes */
