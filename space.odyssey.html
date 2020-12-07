@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zealz Multimedia Portfolio">
+    <meta name="keywords" content="HTML, CSS, Multimedia, design, portfolio, projects">
+    <meta name="author" content="Frederik Nørgård">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="zealzstyle.css">
+    <title>Projekt: Rumrejsen</title>
+</head>
+
+<body>
+    <!-- Banner & Menu -->
+    <header>
+        <img src="./images/zealzbannermm.png">
+        <div class="flexbox">
+            <div>
+                <div id="menu" class="menu" onclick="openNav()">
+                    <div class="positionbar">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Page Introduction -->
+    <section class="intro">
+        <h1>Projekt: <i>Rumrejsen</i></h1>
+        <br>
+        <h2>Min rolle i projektet bestod hovedsageligt i at kode men også en smule photoshop.</h2>
+    </section>
+
+    <section>
+        <div id="nav">
+            <a href="javascript:void(0)" id="closeBTN" onclick="closeNav()">&times;</a>
+            <div class="navbox">
+                <a class="navlinks" href="index.html">Forside</a>
+                <a class="navlinks" href="projects.html">Projekter</a>
+                <a class="navlinks" href="about-me.html">Om Mig</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Article about the project -->
+    <article class="project-article">
+        <p>Rumrejseprojektet på 1. semester bestod af at udvikle et rumfarts koncept for det fiktive DNR ( Danmarks Nationale Rumraketprogram ).</p>
+        <br>
+        <p>I forbindelse med dette var min opgave at skulle kode mit første website ved brug af HTML & CSS.</p>
+        <img src="./images/rum.png">
+        <p>Ydermere skulle der i projektet inddrages minimum et billede med blikfang lavet i Photoshop.</p>
+        <img src="./images/shuttle-test-one.png">
+        <h4>Se det færdige resultat<a href="#" target="blank">her</a></h4>
+    </article>
+
+    <!-- Buttons for flipping to next project page -->
+    <section class="flipping-buttons">
+        <button><a href="#">Forrige</a></button>
+        <button><a href="#">Næste</a></button>
+    </section>
+    <footer>
+        <!-- Contact info -->
+        <div id="footer-grid">
+            <div id="footer-item-1">
+                <section id="contact-info">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li>+45 42617790</li>
+                        <li>frederikwormnorgard@gmail.com</li>
+                    </ul>
+                </section>
+            </div>
+            <!-- SoMe info -->
+            <div id="footer-item-2">
+                <section id="some">
+                    <h4>Sociale Medier</h4>
+                    <ul>
+                        <li><img src="./images/facebook-icon-zealz.png"></li>
+                        <li><img src="./images/instagram.logo.png"></li>
+                        <li><img src="./images/linkedin.logo.png"></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>    
+    <script src="myhacks.js"></script>
+</body>
+</html>
+    
