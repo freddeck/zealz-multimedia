@@ -315,6 +315,17 @@ header img{
     height: 40px;
 }
 
+#swing1{
+    width: 100px;
+    height: 177px;
+}
+
+#swing2{
+    width: 200px;
+    margin-bottom: 5.5em;
+    grid-column-start: 2;
+}
+
 /* Styling article images */
 .project-article img{
     width: 300px;
@@ -360,8 +371,32 @@ header img{
 .project-article h4{
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+    margin-top: 2em;
 }
 
+.side-by-side{
+    display: inline-grid;
+    margin-bottom: 1.5em;
+}
+
+#swing1text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin-top: -1.5em
+}
+
+#swing2text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: -6em;
+    
+}
 .project-article a{
     color: var(--accent-color);
     margin-left: 0.3em;
