@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zealz Multimedia Portfolio">
+    <meta name="keywords" content="HTML, CSS, Multimedia, design, portfolio, about me">
+    <meta name="author" content="Frederik Nørgård">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="zealzstyle.css">
+    <title>About Me</title>
+</head>
+
+<body>
+    <!-- Banner & Menu -->
+    <header>
+        <img src="./images/zealzbannermm.png">
+        <div class="flexbox">
+            <div>
+                <div id="menu" class="menu" onclick="openNav()">
+                    <div class="positionbar">
+                        <div class="bar1"></div>
+                        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                    </div>
+                </div>
+                <div class="line">
+                </div>
+                <div class="line">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="nav">
+            <a href="javascript:void(0)" id="closeBTN" onclick="closeNav()">&times;</a>
+            <div class="navbox">
+                <a class="navlinks" href="index.html">Forside</a>
+                <a class="navlinks" href="projects.html">Projekter</a>
+                <a class="navlinks" href="about-me.html">Om Mig</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page Introduction -->
+    <section class="intro">
+        <h1>Hvem er jeg?</h1>
+    </section>
+
+    <!-- Informations about my skills -->
+    <section id="me">
+        <img src="./images/mig.png">
+        <h1>Frederik Nørgård</h1>
+    </section>
+
+    <section class="skills">
+        <h2>Kompetencer</h2>
+        <ul>
+            <li><img src="./images/iconfinder_Visual_Code_1082429.png"><h4>Visual Studio Code - HTML & CSS</h4><p>Niveau: Middel</p></li>
+            <li><img src="./images/iconfinder_Premiere_Pro_289514.png"><h4>Premiere Pro - Videoredigering</h4><p>Niveau: Middel</p></li>
+            <li><img src="./images/iconfinder_3_Xd_Adobe_logo_logos_4373061.png"><h4>Wireframes & Mockups</h4><p>Niveau: Erfaren</p></li>
+            <li><img src="./images/iconfinder_logo_brand_brands_logos_adobe_photoshop_2993707.png"><h4>Photoshop - Fotoredigering & finpusdning</h4><p>Niveau: Lærer stadig</p></li>
+        </ul>
+    </section>
+
+    <!-- Information about my job and eduction history -->
+    <section class="experience">
+        <h2>Joberfaring</h2>
+        <ul>
+            <li><h4>Agerende Direktør - Fortium A/S</h4><p>Januar 2017 - December 2017</p></li>
+            <li><h4>Lagerchef - Fortium A/S</h4><p>Januar 2012 - Januar 2017</p></li>
+            <li><h4>Lagermedarbejder - Fortium A/S</h4><p>Maj 2011 - Januar 2012</p></li>
+            <li><h4>Menig ved Hæren - Vordingborg</h4><p>Februar 2011 - Maj 2011</p></li>
+        </ul>
+    </section>
+
+    <section class="experience">
+        <h2>Uddannelse</h2>
+        <ul>
+            <li><h4>Multimediedesigner - Zealand, Køge</h4><p>September 2020 - Nuværende</p></li>
+            <li><h4>Psykologi - 2 semestre - Københavns Universitet</h4><p>Januar 2019 - December 2019</p></li>
+            <li><h4>Neuropsykologi (Kursus) - Folkeuniversitetet</h4><p>Januar 2018 - April 2018</p></li>
+            <li><h4>STX - Gymnasie</h4><p>August 2007 - Juni 2010</p></li>
+        </ul>
+    </section>
+
+    <!-- Contact formula -->
+    <section class="formula">
+        <h2>Kontakt mig</h2>
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="Fornavn*"><br>
+            <input type="text" id="lname" name="lname" placeholder="Efternavn*"><br>
+            <input type="text" id="email" name="email" placeholder="Email*"><br>
+            <input type="text" id="phone" name="phone" placeholder="Telefon - Ikke påkrævet"><br>
+            <textarea name="comment" form="usrform" placeholder="Eventuel kommentar"></textarea><br>
+            <input id="send-button" type="submit" value="SEND">
+        </form>
+    </section>
+
+    <footer>
+        <!-- Contact info -->
+        <div id="footer-grid">
+            <div id="footer-item-1">
+                <section id="contact-info">
+                    <h4>Kontakt</h4>
+                    <ul>
+                        <li>+45 42617790</li>
+                        <li>frederikwormnorgard@gmail.com</li>
+                    </ul>
+                </section>
+            </div>
+            <!-- SoMe info -->
+            <div id="footer-item-2">
+                <section id="some">
+                    <h4>Sociale Medier</h4>
+                    <ul>
+                        <li><img src="./images/facebook-icon-zealz.png"></li>
+                        <li><img src="./images/instagram.logo.png"></li>
+                        <li><img src="./images/linkedin.logo.png"></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </footer>
+    <script src="myhacks.js"></script>
+</body>
+</html>
