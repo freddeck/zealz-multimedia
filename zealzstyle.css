@@ -1,0 +1,116 @@
+/* Reset margin and padding */
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/* Root for pagedesign */
+
+:root{
+    --primary-color: #607D8B;
+    --dark-primary-color: #455A64;
+    --light-primary-color: #CFD8DC;
+    --accent-color: #448AFF;
+    --text-icons: #FFFFFF;
+    --primary-text: #212121;
+    --secondary-text: #757575;
+    --divider-color: #BDBDBD;
+    --black: #000000;
+
+}
+
+/* Menubar */
+header img{
+    width: 414px;
+    height: 70px;
+}
+
+.menu {
+    width: 37px;
+    height: 37px;
+    margin-top: 1.3rem;
+    margin-left: 1.3rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+}
+
+
+/* Bars */
+
+.bar1 {
+    width: 37px;
+    height: 1px;
+    background-color: var(--accent-color);
+    transition: 0.4s;
+}
+
+.bar2,
+.bar3 {
+    width: 37px;
+    height: 1px;
+    margin: 12px 0;
+    background-color: var(--accent-color);
+    transition: 0.4s;
+}
+
+/* Flexbox til hele header */
+
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -4.5em;
+}
+
+.line {
+    box-sizing: border-box;
+    border: solid 1px var(--blue-color);
+    height: 1px;
+    width: 9rem;
+}
+
+.logo {
+    width: 80px;
+    margin-top: 2.25rem;
+}
+
+
+/* Nav menu som starter uden width */
+
+#nav {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    width: 0%;
+    background-color: var(--black);
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3.25rem;
+}
+
+.navlinks {
+    color: var(--text-icons);
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+/* Lukke knap til nav */
+
+#closeBTN {
+    display: block;
+    visibility: hidden;
+    text-decoration: none;
+    color: var(--text-icons );
+    padding: 0 1.2rem;
+    position: absolute;
+    font-size: 70px;
+    z-index: 1;
+}
