@@ -25,6 +25,7 @@
     --divider-color: #BDBDBD;
     --black: #000000;
     --darker-grey: #707070;
+    --hover-color: #1311b1;
 
 }
 
@@ -166,7 +167,7 @@ header img{
 }
 
 .jump-to a:hover{
-    color: var(--accent-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
@@ -195,7 +196,7 @@ header img{
 }
 
 .project-info a h3:hover{
-    color: var(--accent-color);
+    color: var(--hover-color);
     cursor: pointer;
 }
 
@@ -250,7 +251,7 @@ header img{
 }
 
 .values a:hover{
-    color: var(--text-icons);
+    color: var(--hover-color);
 }
 
 #me{
@@ -314,6 +315,13 @@ header img{
     height: 40px;
 }
 
+/* Styling article images */
+.project-article img{
+    width: 300px;
+    margin: 1.5em 0em 1.5em 1em;
+
+}
+
 /* Styling additional text */
 .experience{
     margin: 4em 0em 3em 2em;
@@ -338,6 +346,50 @@ header img{
 .experience ul li p{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
+}
+
+.project-article{
+    margin: 5em 2em 5em 2em;
+}
+.project-article p{
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.2em;
+        letter-spacing: 0.02em;
+}
+
+.project-article h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.project-article a{
+    color: var(--accent-color);
+    margin-left: 0.3em;
+    cursor: pointer;
+}
+
+.project-article a:hover{
+    color: var(--hover-color);
+}
+
+/* Buttons for article flipping styling */
+.flipping-buttons button{
+    color: var(--accent-color);
+    background-color: var(--black);
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.08em;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 0.2em 3.5em 3em 3.5em;
+    cursor: pointer;
+}
+
+.flipping-buttons a{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.flipping-buttons a:hover{
+    color: var(--text-icons);
 }
 
 /* Styling formulas */
