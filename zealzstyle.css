@@ -295,6 +295,26 @@ header img{
 
 }
 
+.article-flexbox{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-primary-color);
+    margin: 0.3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+}
+
+.article-flexbox p{
+    color: var(--text-icons);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    margin-top: 2em;
+    margin-left: 0.5em;
+    margin-right: 1em;
+}
+
 /* Styling flexbox images */
 .values img{
     width: 172px;
@@ -324,6 +344,10 @@ header img{
     width: 200px;
     margin-bottom: 5.5em;
     grid-column-start: 2;
+}
+
+#github{
+    width: 190px;
 }
 
 /* Styling article images */
