@@ -801,12 +801,67 @@ footer img{
     /* Styling for article pages for tablet*/
     .project-article p{
         font-size: 1.5em;
+        margin-left: 1em;
     }
 
     .project-article img{
         width: 600px;
         height: 350px;
+        margin-left: 3em;
     }
 
+    .project-article h4{
+        font-size: 1.5em;
+        margin-left: 1em;
+    }
 
+    .flipping-buttons{
+        margin-left: 6em;
+    }
+
+    .flipping-buttons button{
+        width: 10em;
+        height: 3.5em;
+    }
+
+    .flipping-buttons button a{
+        font-size: 1.5em;
+    }
+
+    #bollywood-mockup{
+        width: 300px;
+        height: 450px;
+        margin-left: 13em;
+    }
+
+    #swing1{
+        width: 200px;
+        height: 300px;
+    }
+
+    #swing2{
+        width: 480px;
+        height: 300px;
+    }
+
+    #swing1text{
+        font-size: 1.2em;
+        margin-top: -4.3em;
+        margin-left: 1.7em;
+    }
+
+    #swing2text{
+        font-size: 1.2em;
+        margin-top: -4.3em;
+        margin-left: 1.7em;
+    }
+
+    .side-by-side{
+        margin-left: -4em;
+    }
+
+    #github{
+        width: 500px;
+        height: 200px;
+    }
 }
