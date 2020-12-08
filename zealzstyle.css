@@ -48,6 +48,14 @@ header img{
     cursor: pointer;
 }
 
+#banner-tablet{
+    display: none;
+}
+
+#banner-desktop{
+    display: none;
+}
+
 
 /* Bars */
 
@@ -550,4 +558,126 @@ footer img{
 
 #footer-item-2 img{
     margin: 0.2em;
+}
+
+/* Media Query - Tablet 768px */
+@media only screen and (min-width: 768px){
+
+    /* Hiding mobile menu */
+    #banner-mobile{
+        display: none;
+    }
+    
+    /* Displaying & styling tablet menu */
+    #banner-tablet{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    
+    #banner-tablet img{
+        width: 100%;
+        height: auto;
+    }
+
+    #index{
+        color: var(--text-icons);
+        position: absolute;
+        bottom: 1.5em;
+        left: 4em;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        font-weight: 300;
+    }
+
+    #projects{
+        color: var(--text-icons);
+        position: absolute;
+        bottom: 1.5em;
+        left: 10em;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        font-weight: 300;
+    }
+
+    #about-me{
+        color: var(--text-icons);
+        position: absolute;
+        bottom: 1.5em;
+        left: 16em;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2em;
+        font-weight: 300;
+    }
+        
+        
+    /* Hiding desktop menu */
+    #banner-desktop{
+        display: none;
+    }
+
+    .flexbox{
+        display: none;
+    }
+
+    #nav{
+        display: none;
+    }
+
+    /* Styling footer on tablet */
+
+    footer h4{
+        font-size: 1.7em;
+    }
+
+    footer li{
+        font-size: 1.5em;
+        line-height: 1.4em;
+    }
+
+    
+    footer section{
+        margin: 1em 2em 1em 2em;
+    }
+
+    #some img{
+        width: 55px;
+        height: 55px;
+    }
+
+    /* General styling for index page*/
+    .intro h1{
+        font-size: 1.9em;
+    }
+
+    .intro h2{
+        font-size: 1.7em;
+    }
+
+    .values img{
+        width: 394px;
+        height: 222px;
+    }
+
+    .values ul li h3{
+        font-size: 1.7em;
+    }
+    
+
+    .values ul li p{
+        font-size: 1.5em;
+        margin-top: 0.5em;
+    }
+
+    .values ul li a{
+        font-size: 1.2em;
+    }
+
+    /* General styling for project page */
+    
+
+
 }
