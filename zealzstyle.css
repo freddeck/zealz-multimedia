@@ -1155,7 +1155,8 @@ footer img{
         "g g g g h h h h";
         margin-left: auto;
         margin-right: auto;
-        justify-items: center;        
+        justify-items: center;
+        margin-left: 6em;
     }
 
     #side-1{
