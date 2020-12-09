@@ -964,6 +964,10 @@ footer img{
 
 
     /* Styling index page desktop */
+    .intro{
+        margin-left: auto;
+        margin-right: auto;
+    }
     .intro h1{
         font-size: 3em;
     }
@@ -1014,7 +1018,7 @@ footer img{
     .jump-to{
         margin-top: 4em;
         margin-left: 15em;
-        margin-bottom: 10em;
+        margin-bottom: 12em;
     }
     .jump-to h2{
         font-size: 2.2em;
@@ -1022,6 +1026,8 @@ footer img{
 
     .jump-to li a{
         font-size: 1.9em;
+        line-height: 3em;
+        cursor: pointer;
     }
 
     .project-info h2{
@@ -1290,6 +1296,74 @@ footer img{
         margin-left: 7em;
         font-size: 2em;
         padding: 0.4em 1em 1.4em 1em;
+    }
+
+    /* Styling for project articles - desktop */
+    .project-article{
+        margin-top: 10em;
+        margin-left: 35em;
+    }
+    .project-article p{
+        width: 35em;
+        font-size: 2em;
+        text-align: left;
+        float: left;
+        margin-left: -2em;
+        margin-bottom: 1.5em;
+        margin-top: 1em;
+    }
+
+    .project-article img{
+        width: 1000px;
+        height: 600px;
+        margin: auto;
+    }
+
+    .project-article h4{
+        font-size: 2em;
+        margin-left: -2em;
+    }
+
+    .flipping-buttons{
+        margin-left: 36em;
+    }
+
+    .flipping-buttons button{
+        width: 10em;
+        height: 5em;
+        margin: 10em;
+    }
+
+    .flipping-buttons button a{
+        font-size: 2em;
+    }
+
+    #bollywood-mockup{
+        width: 500px;
+        height: 750px;
+    }
+
+    #swing1{
+        width: 364px;
+        height: 600px;
+    }
+
+    #swing1text{
+        margin-top: 1em;
+        margin-left: -1em;
+    }
+
+    #swing2{
+        width: 800px;
+        height: 500px;
+        margin-top: -0.1em;
+        margin-left: 1em;
+    }
+
+
+    #xenos-h4{
+        margin-top: 6em;
+        margin-right: 20em; 
     }
 
 }
