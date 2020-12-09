@@ -1185,5 +1185,112 @@ footer img{
         margin-left: auto;
     }
 
+    /* About me page styling - desktop */
+    #me{
+        margin-top: 10em;
+        margin-left: 15em;
+    }
+    
+    #me h1{
+        font-size: 2.5em;
+        margin-top: 2em;
+    }
+    #me img{
+        width: 800px;
+        height: auto;
+    }
+
+    .skills{
+        margin-left: 75em;
+        margin-top: -40em;
+    }
+
+    .skills h2{
+        font-size: 2.2em;
+    }
+
+    .skills ul li img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills ul li h4{
+        font-size: 1.8em;
+        margin-top: 0.4em;
+    }
+
+    .skills p{
+        font-size: 1.5em;
+        margin-left: 4.7em;
+        margin-top: -2em;
+    }
+    
+    .experience{
+        margin-left: 17em;
+    }
+
+    .experience h2{
+        font-size: 2.2em;
+    }
+
+    .experience ul li h4{
+        font-size: 1.8em;
+    }
+
+    .experience p{
+        font-size: 1.5em;
+    }
+
+    #experience-1{
+        margin-top: 10em;
+    }
+
+    .formula{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .formula h2{
+        margin-left: -0.7em;
+        font-size: 2.2em;
+    }
+
+    .formula form{
+        width: 40em;
+        height: 30em;
+    }
+
+    .formula input{
+        margin-left:5em;
+        width: 30em;
+        height: 3em;
+    }
+
+    .formula input::placeholder{
+        font-size: 1.5em;
+    }
+
+    .formula textarea{
+        width: 40em;
+        height: 30em;
+    }
+
+    .formula textarea{
+        margin-left:5em;
+        width: 30em;
+        height: 3em;
+    }
+
+    .formula textarea::placeholder{
+        font-size: 1.5em;
+    }
+
+    #send-button{
+        margin-left: 7em;
+        font-size: 2em;
+        padding: 0.4em 1em 1.4em 1em;
+    }
+
 }
         
