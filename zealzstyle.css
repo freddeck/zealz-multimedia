@@ -865,3 +865,150 @@ footer img{
         height: 200px;
     }
 }
+
+/* Media Query - Desktop 1920 */
+@media only screen and (min-width: 1920px){
+    /* Hiding mobile menu */
+    #banner-mobile{
+        display: none;
+    }
+    
+    /* Displaying & styling tablet menu */
+    #banner-desktop{
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+    
+    #banner-desktop img{
+        width: 100%;
+        height: auto;
+    }
+
+    #index{
+        color: var(--text-icons);
+        position: absolute;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5em;
+        font-weight: 300;
+        margin-bottom: -0.8em;
+    }
+
+    #projects{
+        color: var(--text-icons);
+        position: absolute;
+        bottom: 1.5em;
+        left: 10em;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5em;
+        font-weight: 300;
+        margin-bottom: -0.8em;
+    }
+
+    #about-me{
+        color: var(--text-icons);
+        position: absolute;
+        bottom: 1.5em;
+        left: 16em;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.5em;
+        font-weight: 300;
+        margin-bottom: -0.8em;
+    }
+        
+        
+    /* Hiding desktop menu */
+    #banner-tablet{
+        display: none;
+    }
+
+    .flexbox{
+        display: none;
+    }
+
+    #nav{
+    display: none;
+    }
+
+    /* Styling footer desktop */
+    footer h4{
+        font-size: 2.5em;
+    }
+
+    footer li{
+        font-size: 2em;
+        line-height: 1.4em;
+    }
+
+    
+    footer section{
+        margin: 1em 2em 1em 2em;
+    }
+    
+    #some{
+        margin-left: 50em;
+    }
+
+    #some img{
+        width: 100px;
+        height: 100px;
+        margin: 0.5em;
+    }
+
+    #footer-item-1{
+        margin-left: 5em;
+    }
+
+
+    /* Styling index page desktop */
+    .intro h1{
+        font-size: 3em;
+    }
+
+    .intro h2{
+        font-size: 2em;
+    }
+
+    .values{
+        margin-top: 10em;
+        margin-left: 18em;
+        margin-bottom: 10em;
+    }
+
+    .values img{
+        width: 1000px;
+        height: 600px;
+    }
+
+    .values ul{
+        background-color: var(--dark-primary-color);
+        border-radius: 3em;
+        margin: 2em;
+        width: 32em;
+    }
+
+    .values ul li h3{
+        color: var(--text-icons);
+        font-size: 2.5em;
+        margin-top: 1.5em;
+        letter-spacing: 0.05em;
+    }
+    
+
+    .values ul li p{
+        color: var(--text-icons);
+        font-size: 2.3em;
+        margin-top: 0.5em;
+        line-height: 1.3em;
+    }
+
+    .values ul li a{
+        color: var(--black);
+        font-size: 1.2em;
+    }
+    
+}
+        
