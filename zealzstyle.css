@@ -1009,6 +1009,181 @@ footer img{
         color: var(--black);
         font-size: 1.2em;
     }
+
+    /* Styling projects page desktop */
+    .jump-to{
+        margin-top: 4em;
+        margin-left: 15em;
+        margin-bottom: 10em;
+    }
+    .jump-to h2{
+        font-size: 2.2em;
+    }
+
+    .jump-to li a{
+        font-size: 1.9em;
+    }
+
+    .project-info h2{
+        font-size: 2.5em;
+        margin-left: 2em;
+    }
+
+    .project-info a{
+        font-size: 2.3em;
+    }
+
+    .project-info img{
+        width: 500px;
+        height: 330px;
+    }
+
+    .project-info h4{
+        font-size: 2em;
+        letter-spacing: 0.02em;
+    }
+
+    .project-info p{
+        font-size: 2em;
+    }
+
+    /* Grid for school projects - desktop */
+
+    .project-grid{
+        display: inline-grid;
+        grid-template-areas: 
+        "a a a a b b b b"
+        "c c c c d d d d"
+        "e e e e f f f f"
+        "g g g g h h h h";
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;
+        margin-top: -15em;
+    }
+
+    .project-info{
+        margin-bottom: 10em;
+    }
+
+    #school{
+        margin-left: -10em;
+    }
+
+    #item-1{
+        grid-area: a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
     
+    #item-1 img{
+        margin-left: auto;
+    }
+
+    #item-2{
+        grid-area: b;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    #item-2 img{
+        margin-left: auto;
+    }
+    
+    #item-3{
+        grid-area: c;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    #item-3 img{
+        margin-left: auto;
+    }
+
+    #item-4{
+        grid-area: d;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    #item-4 img{
+        margin-left: auto;
+    }
+    
+    #item-5{
+        grid-area: e;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    #item-5 img{
+        margin-left: auto;
+    }
+
+    /* Grid for sideprojects - desktop */
+    .side-grid{
+        display: inline-grid;
+        grid-template-areas: 
+        "a a a a b b b b"
+        "c c c c d d d d"
+        "e e e e f f f f"
+        "g g g g h h h h";
+        margin-left: auto;
+        margin-right: auto;
+        justify-items: center;        
+    }
+
+    #side-1{
+        grid-area: a;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: auto;
+
+    }
+
+    #side-1 h2{
+        margin-left: -10em;
+    }
+
+    #side-1 img{
+        margin-left: auto;
+    }
+    
+    #side-2{
+        grid-area: b;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: auto;
+    }
+
+    #side-2 img{
+        margin-left: auto;
+    }
+
 }
         

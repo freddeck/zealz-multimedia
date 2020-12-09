@@ -25,6 +25,9 @@
         </div>
         <div id="banner-desktop">
             <img src="./images/zealzbannermm - desktop.png">
+            <a id="index" href="index.html">Forside</a>
+            <a id="projects" href="projects.html">Projekter</a>
+            <a id="about-me" href="about-me.html">Om Mig</a>
         </div>
         <div class="flexbox">
             <div>
@@ -43,17 +46,6 @@
         </div>
     </header>
 
-    <section>
-        <div id="nav">
-            <a href="javascript:void(0)" id="closeBTN" onclick="closeNav()">&times;</a>
-            <div class="navbox">
-                <a class="navlinks" href="index.html">Forside</a>
-                <a class="navlinks" href="projects.html">Projekter</a>
-                <a class="navlinks" href="about-me.html">Om Mig</a>
-            </div>
-        </div>
-    </section>
-
     <!-- Page Introduction -->
     <section class="intro">
         <h1>Projekter</h1>
@@ -71,57 +63,61 @@
     </section>
 
     <!-- School projects library -->
-    <section class="project-info">
-        <h2 id="school">Studieprojekter</h2>
-        <a href="space.odyssey.html"><h3>Rumrejsen</h3></a><a href="#"></a>
-        <a href="space.odyssey.html"><img src="./images/shuttle-test-one.png"></a>
-        <h4>Projektrolle: Koder</h4>
-        <p>Udvikling af koncept & hjemmeside i forbindelse med rumturisme.</p>
-    </section>
+    <div class="project-grid">
+        <section class="project-info" id="item-1">
+            <h2 id="school">Studieprojekter</h2>
+            <a href="space.odyssey.html"><h3>Rumrejsen</h3></a><a href="#"></a>
+            <a href="space.odyssey.html"><img src="./images/shuttle-test-one.png"></a>
+            <h4>Projektrolle: Koder</h4>
+            <p>Udvikling af koncept & hjemmeside i forbindelse med rumturisme.</p>
+        </section>
 
-    <section class="project-info">
-        <a href="bollywood-dance.html"><h3>Dans-Bollywood</h3></a>
-        <a href="bollywood-dance.html"><img src="./images/bollywood.5.jpg"></a>
-        <h4>Projektrolle: Kontaktskaber</h4>
-        <p>Hjemmeside til skole for bollywood-dance.</p>
-    </section>
+        <section class="project-info" id="item-2">
+            <a href="bollywood-dance.html"><h3>Dans-Bollywood</h3></a>
+            <a href="bollywood-dance.html"><img src="./images/bollywood.5.jpg"></a>
+            <h4>Projektrolle: Kontaktskaber</h4>
+            <p>Hjemmeside til skole for bollywood-dance.</p>
+        </section>
 
-    <section class="project-info">
-        <a href="swing.html"><h3>Dans-Swing</h3></a>
-        <a href="swing.html"><img src="./images/swingdans.png"></a>
-        <h4>Projektrolle: Koder/Idemand</h4>
-        <p>Videreudvikling af hjemmeside af danseskole for swingdans.</p>
-    </section>
+        <section class="project-info" id="item-3">
+            <a href="swing.html"><h3>Dans-Swing</h3></a>
+            <a href="swing.html"><img src="./images/swingdans.png"></a>
+            <h4>Projektrolle: Koder/Idemand</h4>
+            <p>Videreudvikling af hjemmeside af danseskole for swingdans.</p>
+        </section>
 
-    <section class="project-info">
-        <a href="portrait.html"><h3>Portræt</h3></a>
-        <a href="portrait.html"><img src="./images/filming.png"></a>
-        <h4>Projektrolle: Instruktør/Editor</h4>
-        <p>Portræt af medstuderende på Zealand.</p>
-    </section>
+        <section class="project-info" id="item-4">
+            <a href="portrait.html"><h3>Portræt</h3></a>
+            <a href="portrait.html"><img src="./images/filming.png"></a>
+            <h4>Projektrolle: Instruktør/Editor</h4>
+            <p>Portræt af medstuderende på Zealand.</p>
+        </section>
 
-    <section class="project-info">
-        <a href="project-xenos.html"><h3>Bilmærke - Xenos</h3></a>
-        <a href="project-xenos.html"><img src="./images/xenos.png"></a>
-        <h4>Projektrolle: Projektleder</h4>
-        <p>Udvikling af fiktivt bilmærke med tilhørende koncept og hjemmeside.</p>
-    </section>
+        <section class="project-info" id="item-5">
+            <a href="project-xenos.html"><h3>Bilmærke - Xenos</h3></a>
+            <a href="project-xenos.html"><img src="./images/xenos.png"></a>
+            <h4>Projektrolle: Projektleder</h4>
+            <p>Udvikling af fiktivt bilmærke med tilhørende koncept og hjemmeside.</p>
+        </section>
+    </div>
 
     <!-- Side projects library -->
-    <section class="project-info">
-        <h2 id="side">Sideprojekter</h2>
-        <a href="#"><h3>Bedre Psykiatri - KBH</h3></a>
-        <a href="#"><img src="./images/bp.png"></a>
-        <h4>Projektrolle: Frivillig</h4>
-        <p>Social Medie ansvarlig for Bedre Psykiatri - København.</p>
-    </section>
+    <div class="side-grid">
+        <section class="project-info" id="side-1">
+            <h2 id="side">Sideprojekter</h2>
+            <a href="#"><h3>Bedre Psykiatri - KBH</h3></a>
+            <a href="#"><img src="./images/bp.png"></a>
+            <h4>Projektrolle: Frivillig</h4>
+            <p>Social Medie ansvarlig for Bedre Psykiatri - København.</p>
+        </section>
 
-    <section class="project-info">
-        <a href="#"><h3>Zealz Gaming</h3></a><a href="#"></a>
-        <a href="#"><img src="./images/logo-final.png"></a>
-        <h4>Projektrolle: Leder</h4>
-        <p>Min egen YouTube kanal omhandlende anmeldelser af spil.</p>
-    </section>
+        <section class="project-info" id="side-2">
+            <a href="#"><h3>Zealz Gaming</h3></a><a href="#"></a>
+            <a href="#"><img src="./images/logo-final.png"></a>
+            <h4>Projektrolle: Leder</h4>
+            <p>Min egen YouTube kanal omhandlende anmeldelser af spil.</p>
+        </section>
+    </div>
 
     <!-- Jump to menu -->
     <section class="jump-to">
