@@ -297,11 +297,8 @@ header img{
     margin-left: 0.4em;
 }
 
-.skills p{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    margin: -1.3em 0em 2em 3.1em;
-
+.skills ul li{
+    margin-bottom: 1em;
 }
 
 .article-flexbox{
@@ -392,7 +389,7 @@ header img{
     font-weight: 500;
 }
 
-.experience ul li p{
+.experience ul li h5{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
@@ -446,18 +443,19 @@ header img{
 }
 
 /* Buttons for article flipping styling */
-.flipping-buttons button{
+.flipping-buttons{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+}
+.flipping-buttons a{
     color: var(--accent-color);
     background-color: var(--black);
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 0.08em;
     padding: 0.5em 1em 0.5em 1em;
-    margin: 0.2em 3.5em 3em 3.5em;
+    margin: 2em 3.5em 5em 3.5em;
     cursor: pointer;
-}
-
-.flipping-buttons a{
-    color: var(--accent-color);
     text-decoration: none;
 }
 
@@ -823,15 +821,14 @@ footer img{
     }
 
     .flipping-buttons{
-        margin-left: 6em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
     }
 
-    .flipping-buttons button{
+    .flipping-buttons a{
         width: 10em;
         height: 3.5em;
-    }
-
-    .flipping-buttons button a{
         font-size: 1.5em;
     }
 
@@ -892,17 +889,19 @@ footer img{
         height: auto;
     }
 
-    #index{
+    #index-desktop{
         color: var(--text-icons);
         position: absolute;
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         font-size: 3.5em;
         font-weight: 300;
+        bottom: 1.5em;
+        left: 4em;
         margin-bottom: -0.8em;
     }
 
-    #projects{
+    #projects-desktop{
         color: var(--text-icons);
         position: absolute;
         bottom: 1.5em;
@@ -914,7 +913,7 @@ footer img{
         margin-bottom: -0.8em;
     }
 
-    #about-me{
+    #about-me-desktop{
         color: var(--text-icons);
         position: absolute;
         bottom: 1.5em;
@@ -1333,17 +1332,17 @@ footer img{
     }
 
     .flipping-buttons{
-        margin-left: 36em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        margin-bottom: 8em;
     }
 
-    .flipping-buttons button{
+    .flipping-buttons a{
+        font-size: 2em;
         width: 10em;
         height: 5em;
-        margin: 10em;
-    }
-
-    .flipping-buttons button a{
-        font-size: 2em;
+        margin: 5em;
     }
 
     #bollywood-mockup{
